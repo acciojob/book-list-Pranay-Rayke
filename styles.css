@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button{
+	padding:5px;
+	background-color:blueviolet
+	
+}
+
+.button:hover{
+	cursor:pointer;
+	border:1px solid blueviolet;
+	background-color:white;
+	color:blueviolet;
+}
+
+.container{
+  padding: 10px 20px;
+}
+
+table,th,td,tr{
+	border:1px solid black;
+	border-collapse:collapse;
+	width=100%;
+}
+
+ .delete {
+      background-color: red;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+    font-size: 18px
+		
+		
+    }
